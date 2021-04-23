@@ -1,0 +1,23 @@
+Prodb_goods:
+  host: rm-2zet4v53do65b1r890o.mysql.rds.aliyuncs.com
+  user: dev
+  password: t7ne!WuM8DU
+  database: db_goods
+
+Prodb_order:
+  host: rm-2ze9339343t8a5si5ho.mysql.rds.aliyuncs.com
+  user: dev
+  password: t7ne!WuM8DU
+  database: db_order
+
+Testdb_goods:
+  host: rm-2ze75u2559e837k70ho.mysql.rds.aliyuncs.com
+  user: chanbuyer
+  password: t7ne!WuM8DU
+  database: db_goods
+
+Testdb_order:
+  host: rm-2ze75u2559e837k70ho.mysql.rds.aliyuncs.com
+  user: chanbuyer
+  password: t7ne!WuM8DU
+  database: db_order
