@@ -32,6 +32,6 @@ class threadingOrder(object):
         WriteExcel().errorOrder_data(testorder.errorOrder)
         WriteExcel().missingCskuid_data(testorder.missingskuid)
         endtime = time.time()
-        logger.info("脚本运行时间为{0}".format((endtime - start)))
+        logger.info("脚本运行时间为{0},test".format((endtime - start)))
 if __name__ == '__main__':
     threadingOrder().test()
